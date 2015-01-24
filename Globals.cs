@@ -7,25 +7,25 @@ namespace CodeRunner
 	{
 		public static string APP_DIR = AppDomain.CurrentDomain.BaseDirectory;
 
-		public const int TIMER_INTERVAL = 25;
-        //public const int TIMER_INTERVAL = 50;
+		//public const int TIMER_INTERVAL = 25;
+        public const int TIMER_INTERVAL = 50;
 
-		public const int TILE_WIDTH = 24;
-		public const int TILE_HEIGHT = 24;
+		public const int TILE_WIDTH = 48;
+		public const int TILE_HEIGHT = 48;
 		public const int BOARD_WIDTH = 28;
 		public const int BOARD_HEIGHT = 16;
 
 		public const int GOLD_ANIMATION_ITERATION = 12;
 		public const int GOLD_ANIMATION_SPEED = 4;
 		
-		public const int LEFT_OFFSET = 24;
-		public const int TOP_OFFSET = 24;
+		public const int LEFT_OFFSET = 48;
+		public const int TOP_OFFSET = 48;
 
-		public const int HERO_XSPEED = 3;
-		public const int HERO_YSPEED = 2;
-        public const int HERO_FALLSPEED = 3;
+		public const int HERO_XSPEED = 6;
+		public const int HERO_YSPEED = 4;
+        public const int HERO_FALLSPEED = 6;
 
-		public const int MONK_SPEED = 2;
+		public const int MONK_SPEED = 4;
 
 		public const int MONK_TRAPTIME = 50;
 		public const int HOLE_LIFETIME = 330;
@@ -33,7 +33,7 @@ namespace CodeRunner
 
 		public const int SLEEP_TIME = 0;
 
-        public const int MAX_MONKS = 100;
+        public const int MAX_MONKS = 0;
 
 		public const int MONK_PICKUP_RATE = 3;
 		public const int MONK_DROP_RATE = 25;
